@@ -3,10 +3,10 @@
 ## How to perform the risk analysis: 
 
 We´re already certain about the functionality and structure of our application, therefore we can use the FMEA method to perform the
-risk analysis. As our application consists only of a limited number of components, it´s rational to examine each component thouroughly and 
-to think of all the errors that could possibly occur. 
-Our application aims to be used by a large number of non-professionals. Therefore FMEA is very suitable for our application as it´s nicely dividable 
-between Design FMEA (hazards caused by errors in the design) and Process FMEA (hazards caused by errors in the handling).
+risk analysis. It´s realistical to examine each component individually
+while being able to think of all the errors that could possibly occur in it, as our application consists only of a limited number of non-complex components.
+Additionally, FMEA is nicely dividable between Design FMEA (hazards caused by errors in the design) and Process FMEA (hazards caused by errors in the handling),
+which is very suitable for an application that deals with a diverse audience of non-professionals.
 
 To make sure that no possible errors are overlooked, the risk manager has to communicate with 
 at least one person from every department that works on the product creation (e.g. backend- and frontend-developer) 
