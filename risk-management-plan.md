@@ -3,25 +3,35 @@
 ## How to perform the risk analysis: 
 
 We´re already certain about the functionality and structure of our application, therefore we can use the FMEA method to perform the
-risk analysis. It´s realistical to examine each component individually
-while being able to think of all the errors that could possibly occur in it, as our application consists only of a limited number of non-complex components.
-Additionally, FMEA is nicely dividable between Design FMEA (hazards caused by errors in the design) and Process FMEA (hazards caused by errors in the handling),
-which is very suitable for an application that deals with a diverse audience of non-professionals.
-
-To make sure that no possible errors are overlooked, the risk manager has to communicate with 
+risk analysis. The approach of examining each component individually, thinking of all the errors that could possibly occur in it, 
+is very suitable for our application, as it consists only of a limited number of non-complex components.
+Also, FMEA is nicely dividable between Design FMEA (hazards caused by errors in the design) and Process FMEA (hazards caused by errors in the handling),
+which makes a lot of sense for an application that deals with a diverse audience of non-professionals, resultingly having to focus specifically on 
+false use of the software.
+To ensure that during the analysis none of the potential errors are overlooked, the risk manager has to communicate with 
 at least one person from every department that works on the product creation (e.g. backend- and frontend-developer) 
 and at least one person working in usability management. 
 
 Also, the risk analysis of similar applications like Symptomate or mayoclinic´s Symptom Checker has to be taken into account.
 
-The gathered risks all have to be documented in a table structure with the columns Component, Error, Effect on the subsystem and Possible harm.
+The gathered risks all have to be documented in a table structure with the columns Component, Error, Effect on the subsystem, Effect on the overall system and Possible harm.
 
 ## When the remaining risks are considered to be acceptable: 
 
 Since the application doesn't diagnose but only aids in diagnosis and can only be used regarding non serious symptoms 
 and their diseases, its benefits don't justice any high risk.
-Therefore the remaining risks are only considered to be acceptable if their risk class is at most 2, 
-presuming the risks of class 2 don't happen more than seldom. 
+Therefore the remaining risks are only considered to be acceptable if their risks 
+correspond to the following acceptability table, donating a with an acceptable harm,
+na an unanacceptable one.
+
+|                               |            | **Severity of harm** |       |         |          |              |
+|-------------------------------|------------|----------------------|-------|---------|----------|--------------|
+|                               |            | Negligible           | Minor | Serious | Critical | Catastrophic |
+| **Probability  of Occurence** | Often      | na                   | na    | na      | na       | na           |
+|                               | Probable   | a                    | a     | na      | na       | na           |
+|                               | Occasional | a                    | a     | a       | na       | na           |
+|                               | Seldom     | a                    | a     | a       | na       | na           |
+|                               | Unlikely   | a                    | a     | a       | a        | a            |
 
 ## Checking the implementation of risk mitigating measures: 
 
