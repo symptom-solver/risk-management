@@ -1,2 +1,2 @@
-# risk-management
+# Risk-Management
 Risk Management for the Symptom Solver App
