@@ -27,11 +27,11 @@ na an unanacceptable one.
 |                               |            | **Severity of harm** |       |         |          |              |
 |-------------------------------|------------|----------------------|-------|---------|----------|--------------|
 |                               |            | Negligible           | Minor | Serious | Critical | Catastrophic |
-| **Probability  of Occurence** | Often      | na                   | na    | na      | na       | na           |
-|                               | Probable   | a                    | a     | na      | na       | na           |
-|                               | Occasional | a                    | a     | a       | na       | na           |
-|                               | Seldom     | a                    | a     | a       | na       | na           |
-|                               | Unlikely   | a                    | a     | a       | a        | a            |
+| **Probability  of Occurence** | Often      | $\color{red}{\textsf{na}}$   | $\color{red}{\textsf{na}}$    | $\color{red}{\textsf{na}}$  | $\color{red}{\textsf{na}}$  | $\color{red}{\textsf{na}}$           |
+|                               | Probable   | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{red}{\textsf{na}}$    | $\color{red}{\textsf{na}}$   | $\color{red}{\textsf{na}}$           |
+|                               | Occasional | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{red}{\textsf{na}}$ | $\color{red}{\textsf{na}}$ |
+|                               | Seldom     | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{red}{\textsf{na}}$ | $\color{red}{\textsf{na}}$ |
+|                               | Unlikely   | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$       |
 
 ## Checking the implementation of risk mitigating measures: 
 
