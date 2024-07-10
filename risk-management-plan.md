@@ -28,10 +28,10 @@ an unacceptable one with na.
 |-------------------------------|------------|----------------------|-------|---------|----------|--------------|
 |                               |            | Negligible           | Minor | Serious | Critical | Catastrophic |
 | **Probability  of Occurence** | Often      | $\color{red}{\textsf{na}}$   | $\color{red}{\textsf{na}}$    | $\color{red}{\textsf{na}}$  | $\color{red}{\textsf{na}}$  | $\color{red}{\textsf{na}}$           |
-|                               | Probable   | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{red}{\textsf{na}}$    | $\color{red}{\textsf{na}}$   | $\color{red}{\textsf{na}}$           |
-|                               | Occasional | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{red}{\textsf{na}}$ | $\color{red}{\textsf{na}}$ |
+|                               | Probable   | $\color{green}{\textsf{a}}$  | $\color{red}{\textsf{na}}$ | $\color{red}{\textsf{na}}$    | $\color{red}{\textsf{na}}$   | $\color{red}{\textsf{na}}$           |
+|                               | Occasional | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{red}{\textsf{na}}$ | $\color{red}{\textsf{na}}$ | $\color{red}{\textsf{na}}$ |
 |                               | Seldom     | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{red}{\textsf{na}}$ | $\color{red}{\textsf{na}}$ |
-|                               | Unlikely   | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$       |
+|                               | Unlikely   | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{yellow}{\textsf{a}}$ | $\color{yellow}{\textsf{a}}$       |
 
 ## Checking the implementation of risk mitigating measures: 
 
