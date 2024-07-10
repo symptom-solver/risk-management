@@ -21,8 +21,8 @@ The gathered risks all have to be documented in a table structure with the colum
 Since the application doesn't diagnose but only aids in diagnosis and can only be used regarding non serious symptoms 
 and their diseases, its benefits don't justice any high risk.
 Therefore the remaining risks are only considered to be acceptable if their risks 
-correspond to the following acceptability table, donating a with an acceptable harm,
-na an unanacceptable one.
+correspond to the following acceptability table, marking an acceptable harm with a,
+nunanacceptable one with na.
 
 |                               |            | **Severity of harm** |       |         |          |              |
 |-------------------------------|------------|----------------------|-------|---------|----------|--------------|
