@@ -22,7 +22,7 @@ Since the application doesn't diagnose but only aids in diagnosis and can only b
 and their diseases, its benefits don't justice any high risk.
 Therefore the remaining risks are only considered to be acceptable if their risks 
 correspond to the following acceptability table, marking an acceptable harm with a,
-nunanacceptable one with na.
+an acceptable one with na.
 
 |                               |            | **Severity of harm** |       |         |          |              |
 |-------------------------------|------------|----------------------|-------|---------|----------|--------------|
