@@ -33,6 +33,24 @@ an unacceptable one with na.
 |                               | Seldom     | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{red}{\textsf{na}}$ | $\color{red}{\textsf{na}}$ |
 |                               | Unlikely   | $\color{green}{\textsf{a}}$  | $\color{green}{\textsf{a}}$ | $\color{green}{\textsf{a}}$ | $\color{yellow}{\textsf{a}}$ | $\color{yellow}{\textsf{a}}$       |
 
+### Glossar
+
+#### Probability of ocurrence
+
+- Often: Everytime or nearly everytime the user uses the app.
+- Probable: Most of the times when the user uses the app.
+- Occasional: Sometimes when the user uses the app.
+- Seldom: Nearly never. Very small fraction of when the user uses the app.
+- Unlikely: It is not expected that that happens when the user uses the app.
+
+#### Severity of harm
+
+- Negligible: Uncomforting.
+- Minor: Temporary injury, no medical treatment.
+- Serious: Injury that requires medical treatment.
+- Critical: Serious or permanent injury.
+- Catastrophic: User dead.
+
 ## Checking the implementation of risk mitigating measures: 
 
 The employed risk manager is responsible for ensuring the complete implementation of each risk mitigating measure throughout the whole software lifecycle;
