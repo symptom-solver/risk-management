@@ -4,7 +4,8 @@
 The Symptom Solver App is a software application designed to assist individuals in identifying potential illnesses based on their reported symptoms. The app aims to provide preliminary diagnostic insights that can guide users in seeking appropriate medical advice or intervention.
 
 ## Intended User
-The app is intended for use by the general public, including individuals who are experiencing symptoms and are seeking initial guidance on possible health conditions.
+The app is intended for use by individuals in the general public (18-80), who are experiencing symptoms and are seeking initial guidance on possible health conditions.
+These individuals should not suffer from any health conditions or chronic diseases.
 
 ## Intended Use Environment
 The app is intended for use in home environments. Users can access the app on their personal mobile devices, such as smartphones and tablets, as well as on desktop computers.
@@ -15,7 +16,7 @@ All of the diseases listed in the app are non-serious and can be treated at home
 
 # Classification of the Significance of information provided
 The app will not provide any information on diseases that require immediate medical attention.
-The app will everytime advise the user to consult a healthcare provider for an accurate diagnosis and appropriate treatment. Additionally the app will display a message like "if you experience a different symptom, please consult a healthcare provider for an accurate diagnosis and appropriate treatment."
+The app will advise the user to consult a healthcare provider for an accurate diagnosis and appropriate treatment. Additionally the app will display a message like "if you experience a different symptom, please consult a healthcare provider for an accurate diagnosis and appropriate treatment."
 
 Since the app will be used to aid in diagnosis of low-risk diseases, class 2 is appropriate for the app.
 
