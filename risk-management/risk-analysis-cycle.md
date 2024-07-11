@@ -38,9 +38,15 @@ Therefore we will not evaluate the risk of an user using the app having one of t
 
 After the risk mitigating measures, the risks correspond to our risk acceptability specifications.
 
-## Evaluation of the Overall Residual Risk
+## Risk Re-Evaluation
 
 Risks caused by the risk mitigating measures are:
+
+### Design FMEA
+
+| Component                                          | Error                                                                                          | Effect on the subsystem                | Effect on the overall system                                                  | Possible Harm                                                                                                                                                                                          | Severity of harm | Probability of occurence | Mitigating Measure                                                                 | Severity of Harm after mitigation | Probability of occurence after mitigation |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|--------------------------|------------------------------------------------------------------------------------|-----------------------------------|-------------------------------------------|
+| Improving the  algorithm with  more real-life data | Employee that didn't work on the code before accidentally changes other functioning components | New errors occur in changed components | System can't be used anymore / System crashes while use / Prediction is wrong | Healing process for  user´s actual disease stays the same as  without any taken action or even slows down. User experiences light side  effects of any medication he took for treating another disease | Minor            | Probable                 | Implement thorough testing and review  after every, even  small change in the code | Minor                             | Seldom                                    |
 
 ### Process FMEA
 
@@ -48,3 +54,18 @@ Risks caused by the risk mitigating measures are:
 |---------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------------------------------------|
 | Reading  warning message  | User skips reading of the message after  having seen it at least once | User forgets some of  the message´s content => disregards the  importance of only  selecting his exact set of symptoms | User  selects more or less than his symptoms                                        | Healing process for user´s actual  disease stays the same as without  any taken action or even slows down. User experiences light side effects of any medication he took for treating another disease. | Minor                                  | Probable                 | Switching up the design of the warning message  as well as the structure of its content (not the meaning!) to make it seem like the message changed  while obtaining it´s  clear visibility | Minor                                 | Occasional                                |
 | Reading warning  message  | ""                                                                    | "" => disregards the  importance of consulting a healthcare provider  even if he experiences serious symptoms          | User does not consult a healthcare provider even if he experiences serious symptoms | Serious health complications  or   even death                                                                                                                                                          | Serious to  Critical  or  Catastrophic | Seldom                   | ""                                                                                                                                                                                          | Serious to Critical  or  Catastrophic | Unlikely                                  |
+
+
+## Evaluation of the Overall Residual Risk
+
+|                               |            | **Severity of harm** |       |         |          |              |
+|-------------------------------|------------|----------------------|-------|---------|----------|--------------|
+|                               |            | Negligible           | Minor | Serious | Critical | Catastrophic |
+| **Probability  of Occurence** | Often      | $\color{red}{\textsf{0}}$   | $\color{red}{\textsf{0}}$    | $\color{red}{\textsf{0}}$  | $\color{red}{\textsf{0}}$  | $\color{red}{\textsf{0}}$           |
+|                               | Probable   | $\color{green}{\textsf{0}}$  | $\color{red}{\textsf{0}}$ | $\color{red}{\textsf{0}}$    | $\color{red}{\textsf{0}}$   | $\color{red}{\textsf{0}}$           |
+|                               | Occasional | $\color{green}{\textsf{0}}$  | $\color{green}{\textsf{3}}$ | $\color{red}{\textsf{0}}$ | $\color{red}{\textsf{0}}$ | $\color{red}{\textsf{0}}$ |
+|                               | Seldom     | $\color{green}{\textsf{0}}$  | $\color{green}{\textsf{1}}$ | $\color{green}{\textsf{0}}$ | $\color{red}{\textsf{0}}$ | $\color{red}{\textsf{0}}$ |
+|                               | Unlikely   | $\color{green}{\textsf{0}}$  | $\color{green}{\textsf{1}}$ | $\color{green}{\textsf{1}}$ | $\color{yellow}{\textsf{2}}$ | $\color{yellow}{\textsf{3}}$       |
+
+With the implemented risk mitigating measures don't come any new foreseeable risks.
+The analysis can be closed for the actual state of the application as the current risks are all acceptable.
